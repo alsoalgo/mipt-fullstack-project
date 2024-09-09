@@ -1,0 +1,55 @@
+.profile-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: start;
+}
+
+.profile-order-question-wrapper {
+    padding-left: 20px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-orders {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-questions {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-form-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.profile>h1 {
+    font-size: 40px;
+}

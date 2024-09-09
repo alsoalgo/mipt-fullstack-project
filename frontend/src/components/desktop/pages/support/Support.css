@@ -1,0 +1,34 @@
+.support-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.support-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.support-form {
+    display: flex;
+    flex: 3;
+}
+
+.support-popular-destinations-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.support-popular-destinations-title {
+    text-align: center;
+}
+
+.support-popular-destinations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+}

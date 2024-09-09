@@ -1,0 +1,19 @@
+.login-logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.login-logo img {
+    resize: both;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    display: inline-block;
+}
+
+.login-logo span {
+    font-size: 40px;
+    display: flex;
+}

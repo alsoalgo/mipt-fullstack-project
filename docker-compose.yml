@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  frontend:
+    container_name: frontend
+    image: gorbuljaal/frontend
+    networks:
+      travelgo:
+    ports: 
+      - 80:80
+    volumes:
+      - ./frontend:/frontend
+  
+  backend:
+    container_name: backend
+    image: gorbuljaal/backend
+    networks:
+      travelgo:
+    ports: 
+      - 8080:8080
+    volumes:
+      - ./backend:/backend
+
+networks:
+  travelgo:
+    external: true

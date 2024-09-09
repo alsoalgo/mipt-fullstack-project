@@ -1,0 +1,55 @@
+.hotels-search-result {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    flex-direction: row;
+    background-color: #C2C2C2;
+}
+
+.hotels-search-result-bg {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: none;
+    border-radius: 5px;
+}
+
+.hotels-search-result-description-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.hotels-search-result-description-title {
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+}
+
+.hotels-search-result-description-sub {
+    font-size: 18px;
+}
+
+.hotels-search-result-description-book-wrapper {
+    display: flex;
+    justify-content: end;
+    z-index: 0;
+}
+
+.hotels-search-result-description-book {
+    height: 60px;
+    padding: 15px;
+    background-color: #66CDAA;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
+    
+}
+

@@ -1,0 +1,21 @@
+.header-logo {
+    flex: 1;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 4vw;
+    display: flex;
+    display: inline-block;
+}
+
+.header-logo span {
+    padding-left: 1vw;
+    display: flex;
+    font-size: 3vw;
+}

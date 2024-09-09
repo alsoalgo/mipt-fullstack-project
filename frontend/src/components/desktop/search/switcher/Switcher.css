@@ -1,0 +1,7 @@
+.search-switcher {
+    width: 1000px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start space-between;
+    margin: 5px;
+}

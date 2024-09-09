@@ -1,0 +1,44 @@
+.hotels-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotels-search {
+    width: 100%;
+    padding: 20px;
+}
+
+.hotels-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.hotels-search-results {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hotels-popular-destinations-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.hotels-popular-destinations-title {
+    text-align: center;
+}
+
+.hotels-popular-destinations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+}
+
+
